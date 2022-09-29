@@ -1,0 +1,144 @@
+.html {
+  height: 100%;
+}
+
+.page {
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-image: url(../images/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100%;
+}
+
+.page__wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.header__container {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+/*.header__container::before {
+  position: absolute;
+  z-index: 999px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}*/
+
+.logo {
+  width: 100px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../images/iGID_logo.svg);
+}
+
+.hader__title {
+  font-size: 24px;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+  max-width: 800px;
+  background-color: #000;
+  min-height: 300px;
+  padding: 40px 40px 150px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.footer {
+  margin: auto auto 0;
+  padding: 30px;
+  width: 100%;
+  max-width: 800px;
+  box-sizing: border-box;
+}
+
+.footer__copyright {
+  margin: 0;
+  text-align: center;
+}
+
+.main__title {
+  font-size: 24px;
+  margin: 50px auto 90px;
+  text-align: center;
+}
+
+.main__text {
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.main__subtitle {
+  font-size: 24px;
+  line-height: 1.15;
+  margin: 0 0 40px;
+  text-align: left;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.card {
+  width: 100%;
+  max-width: 380px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: linear-gradient(to top, #001E30 0%, #000 100%);
+}
+
+.phone {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main__text-accent {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    max-width: unset;
+  }
+}
