@@ -45,6 +45,10 @@
   padding: 40px;
   margin: 0 auto;
   box-sizing: border-box;
+  background-image: url(../images/header_bg.jpg);
+  background-size: cover;
+  color: #fff;
+  min-height: 250px;
 }
 
 .logo {
@@ -62,6 +66,7 @@
   line-height: 1.15;
   margin: 30px auto 0;
   text-align: center;
+  text-shadow: 2px 2px 2px black;
 }
 
 .main {
